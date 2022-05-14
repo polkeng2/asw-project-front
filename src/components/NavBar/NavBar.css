@@ -1,0 +1,18 @@
+.navBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #19437a;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.navBarElements {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 3 0%;
+  margin-left: 2rem;
+}
