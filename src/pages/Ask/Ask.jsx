@@ -3,11 +3,11 @@ import Post from "../../components/Post/Post";
 import usePosts from "../../hooks/usePosts";
 import { Button } from "@mui/material";
 
-const Home = () => {
+const Ask = () => {
     const [posts, setPosts] = useState([]);
     const [orderby, setOrderby] = useState("likes");
     const [isClicked, setIsClicked] = useState(false);
-    const { getAllPosts } = usePosts();
+    const { getAllAskPosts } = usePosts();
 
     const handleClick = () => {
         if(orderby == "likes"){
@@ -20,7 +20,7 @@ const Home = () => {
 
     useEffect(() => {
         async function fetchData() {
-            const result = await getAllPosts(orderby);
+            const result = await getAllAskPosts(orderby);
             setPosts(result);
         }
         fetchData();
@@ -50,4 +50,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Ask;

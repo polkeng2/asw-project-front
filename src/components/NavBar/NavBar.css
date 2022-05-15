@@ -1,5 +1,6 @@
 .navBar {
   display: flex;
+  text-decoration: none;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
@@ -10,9 +11,15 @@
 
 .navBarElements {
   display: flex;
+  text-decoration: none;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   width: 3 0%;
   margin-left: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
 }

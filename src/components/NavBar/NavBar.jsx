@@ -7,10 +7,18 @@ const NavBar = () => {
   return (
     <nav className="navBar">
       <div className="navBarElements">
-        <Button>FiberNews</Button>
-        <Button>New</Button>
-        <Button>Threads</Button>
-        <Button>Ask</Button>
+        <Link className="link" to="/">
+          <Button>FiberNews</Button>
+        </Link>
+        <Link className="link" to="/submit">
+          <Button>Submit</Button>
+        </Link>
+        <Link className="link" to="/ask">
+          <Button>Ask</Button>
+        </Link>
+        <Link className="link" to="/threads">
+          <Button>Threads</Button>
+        </Link>
       </div>
       <Button>Login</Button>
     </nav>
