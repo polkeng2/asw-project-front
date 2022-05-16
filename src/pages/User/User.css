@@ -1,4 +1,4 @@
-.userContainer {
+.infoContainer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -6,10 +6,10 @@
   max-width: 70%;
   margin: 0 auto;
   padding: 0.5rem;
-  background-color: beige;
+  background-color: #fafafa;
 }
 
-.userField {
+.infoField {
   display: flex;
   flex-direction: column;
   margin: 0.7rem 0;

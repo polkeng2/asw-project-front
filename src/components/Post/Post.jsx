@@ -32,7 +32,7 @@ const Post = (props) => {
       </div>
       <div className="postInfo">
         <span>
-          {likes} points by {" "}
+          {likes} likes by {" "}
         </span>
         <Link to={{ pathname: `/user/${username}`}}>{username}</Link>
         <span>
