@@ -24,10 +24,6 @@ const Profile = () => {
   };
 
   useEffect(() => {
-      console.log(isEditable);
-  }, [isEditable]);
-
-  useEffect(() => {
     async function fetchData() {
       const result = await getUser(username);
       setUser(result);
