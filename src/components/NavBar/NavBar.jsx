@@ -1,7 +1,6 @@
 import "./NavBar.css";
 import Button from "@mui/material/Button";
 import { Link } from "react-router-dom";
-import Avatar from "@mui/material/Avatar";
 
 const NavBar = () => {
   return (
@@ -20,7 +19,9 @@ const NavBar = () => {
           <Button>Threads</Button>
         </Link>
       </div>
-      <Button>Login</Button>
+      <Link className="link" to={{ pathname: `/profile/gerard.madrid`}}>
+          <Button>Login</Button>
+        </Link>
     </nav>
   );
 };
